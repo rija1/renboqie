@@ -93,7 +93,7 @@ $pllArgs = array(
                         <?php } ?>
                     </nav>
                     <nav class="menu-top-mob-container">
-                        <a class="icon-menu" href="#"><?php _e( 'Menu', 'druponrinpoche' ); ?></a>
+                        <a class="icon-menu" href="#"><?php _e( 'Menu', 'renboqie' ); ?></a>
                         <?php if ( has_nav_menu( 'dkr-menu' ) ) { ?>
                             <?php wp_nav_menu(
                                 array('container'=> '',

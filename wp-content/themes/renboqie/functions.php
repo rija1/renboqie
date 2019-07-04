@@ -63,7 +63,7 @@ if( ! function_exists( 'dkr_theme_setup' ) ) {
         add_image_size('dkr-photo-310-207', 310, 207, true);
 
         // Menus
-        register_nav_menu( 'dkr-menu', _x( 'Main Menu', 'backend', 'druponrinpoche' ) );
+        register_nav_menu( 'dkr-menu', _x( 'Main Menu', 'backend', 'renboqie' ) );
 
         // Add theme support for Semantic Markup
         add_theme_support( 'html5', array(
@@ -1048,7 +1048,7 @@ function insert_fb_in_head() {
     echo '<meta property="og:url" content="' . get_permalink() . '"/>';
     echo '<meta property="og:site_name" content="Drupon Rinpoche Karma Lhabu"/>';
     if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-        $default_image="http://druponrinpoche.org/wp-content/themes/druponrinpoche/assets/images/logo_dharma_wheel_gold.png"; //replace this with a default image on your server or an image in your media library
+        $default_image="http://renboqie.org/wp-content/themes/renboqie/assets/images/logo_dharma_wheel_gold.png"; //replace this with a default image on your server or an image in your media library
         echo '<meta property="og:image" content="' . $default_image . '"/>';
     }
     else{
